@@ -26,9 +26,10 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="USa-cI-vhy"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Zn6-EB-2KA"/>
                             </scrollView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Small logo" translatesAutoresizingMaskIntoConstraints="NO" id="gwK-h8-Ewa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="personalhotspot" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gwK-h8-Ewa">
                                 <rect key="frame" x="350" y="20" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu Sidebar icon" translatesAutoresizingMaskIntoConstraints="NO" id="AFh-75-Fz5">
                                 <rect key="frame" x="24" y="21" width="28" height="28"/>
@@ -225,7 +226,7 @@
         <image name="Container" width="376" height="202"/>
         <image name="Menu Sidebar icon" width="28" height="28"/>
         <image name="Rectangle 7" width="129" height="130"/>
-        <image name="Small logo" width="40" height="40"/>
         <image name="c" width="39" height="40"/>
+        <image name="personalhotspot" catalog="system" width="64" height="36"/>
     </resources>
 </document>
