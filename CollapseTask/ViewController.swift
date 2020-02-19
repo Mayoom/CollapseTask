@@ -66,7 +66,8 @@ class ViewController: UIViewController , UICollectionViewDelegate,UICollectionVi
 //        ItemsColView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40).isActive = true
 //        ItemsColView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40).isActive = true
 //        ItemsColView.heightAnchor.constraint(equalToConstant: view.frame.width/2).isActive = true
-        
+        txtsearch.attributedPlaceholder = NSAttributedString(string: "   Search",
+        attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
        
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -159,6 +160,7 @@ class ViewController: UIViewController , UICollectionViewDelegate,UICollectionVi
 //    func scrollViewDidScroll(_ scrollView: UIScrollView) {
 //        CatgColView.frame = CGRect(x: 0.0, y: CatgColView.frame.origin.y-1, width: 375, height: ItemsColView.frame.height+1);
 //  }
- 
+//  
+  
 }
 
